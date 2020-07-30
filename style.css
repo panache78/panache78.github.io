@@ -42,6 +42,38 @@ html {
 .active {
   background-color: #4CAF50; /* Add an active/current color */
 }
+/*Recently made this addition July 24th, you can delete if you dont like*/
+.parallax-window {    
+    background: transparent;
+    position: relative;
+}
+
+.tm-overlay {
+    max-width: 660px;
+    padding: 75px 70px;
+}
+
+.parallax-window-2 {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    padding: 15px 50px;
+    border-radius: 0;
+    font-size: 1.2rem;
+}
+
+.btn-primary {
+    background-color: #0099FF;
+    border-color: #0099FF;
+}
+
+.btn-primary:hover {
+    background-color: #2f80d0;
+    border-color: #2f80d0;
+}
+/*Uptil till here made addition on July 24th*/
 
 h1 {
 	font-size: 3rem;
